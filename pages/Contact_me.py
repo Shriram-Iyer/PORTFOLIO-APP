@@ -1,5 +1,5 @@
 import streamlit as st
-from send_mail import sendMail
+from send_mail import sendmail
 
 st.set_page_config(layout='wide')
 st.header("Contact Me")
@@ -15,5 +15,5 @@ From: {user_email}
 """
     button = st.form_submit_button("Submit")
     if button:
-        sendMail(fullMessage)
+        sendmail(fullMessage)
         st.info("Your mail was sent successfully")
