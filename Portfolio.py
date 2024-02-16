@@ -20,14 +20,14 @@ df = pd.read_csv("data.csv", sep=";")
 
 col3, empty_col, col4 = st.columns([1.5, 0.25, 1.75])
 with col3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:9].iterrows():
         st.header(row["title"])
         st.write(row['description'])
         st.image("images/" + row['image'])
         st.write(f"[Source Code]({row['url']})")
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[9:].iterrows():
         st.header(row["title"])
         st.write(row['description'])
         st.image("images/" + row['image'])
