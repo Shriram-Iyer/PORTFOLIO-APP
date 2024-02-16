@@ -3,7 +3,6 @@ To-do App;A distraction-free web app to help you focus on creating and completin
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/Shriram-Iyer/PORTFOLIO-APP;2.png
 File Compress;A App that reads compresses files into zip file.;https://github.com/Shriram-Iyer/File_Compress_App;3.png
 PDF Invoices;A App that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/Shriram-Iyer/Excel-To-PDF-App;4.png
-Weather Forcast Website;A website that reads weather data from api and Displays it in visual format.;https://github.com/Shriram-Iyer/Weather_Forcast_App;6.png
 Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png
 Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png
 Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://pythonhow.com;9.png
@@ -13,7 +12,7 @@ Typing Analyzer;A program that monitors the computer keyboard and returns the mo
 Internet Speed Analysis;A program that records the internet speed every few seconds and plots the values on the browser.;https://pythonhow.com;13.png
 Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;https://pythonhow.com;14.png
 Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;https://pythonhow.com;15.png
-Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://pythonhow.com;16.png
+Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/Shriram-Iyer/Weather_Forcast_App;16.png
 Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://pythonhow.com;17.png
 School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://pythonhow.com;18.png
 Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://pythonhow.com;19.png
