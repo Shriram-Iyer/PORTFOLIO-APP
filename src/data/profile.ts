@@ -13,13 +13,13 @@ const resumes = [
     id: "java",
     label: "Java & Spring Boot CV",
     summary: "Backend leadership with Spring Boot, Kafka, and AWS.",
-    url: "/assets/SHRIRAM_VENKATASUBRAMANIAN_IYER_CV.pdf"
+    url: `${import.meta.env.BASE_URL}assets/SHRIRAM_VENKATASUBRAMANIAN_IYER_CV.pdf`
   },
   {
     id: "mern",
     label: "MERN Stack CV",
     summary: "Full-stack delivery across MongoDB, Express, React, and Node.",
-    url: "/assets/SHRIRAM_VENKATASUBRAMANIAN_IYER_CV_MERN.pdf"
+    url: `${import.meta.env.BASE_URL}assets/SHRIRAM_VENKATASUBRAMANIAN_IYER_CV_MERN.pdf`
   }
 ];
 
@@ -28,7 +28,7 @@ export const profile = {
   name: "Shriram Venkatasubramanian Iyer",
   role: "Senior Software Engineer",
   location: "Chennai, India",
-  photo: "/assets/photo1.jpg",
+  photo: `${import.meta.env.BASE_URL}assets/photo1.jpg`,
   headline:
     "Senior engineer blending Java/Spring Boot backends with MERN experiences to ship reliable logistics and SaaS platforms.",
   summary:
