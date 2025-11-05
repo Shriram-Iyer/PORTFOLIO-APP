@@ -36,15 +36,21 @@ export const certifications: Certification[] = [
     skills: ["Kafka Architecture", "Producers & Consumers"]
   },
   {
-    name: "C# Masterclass",
-    issuer: "Udemy",
-    issued: "May 2023",
-    skills: ["C#", ".NET Fundamentals"]
-  },
-  {
-    name: "Web Development",
+    name: "The Complete Full-Stack Web Development Bootcamp",
     issuer: "Udemy",
     issued: "Sep 2022",
     skills: ["JavaScript", "Frontend Foundations"]
+  },
+  {
+    name: "Learn by example: Apache Flink",
+    issuer: "Udemy",
+    issued: "April 2025",
+    skills: ["Apache Flink", "Stream Processing"]
+  },
+  {
+    name: "Build a WebSocket server with Node.js - no libraries - 2025",
+    issuer: "Udemy",
+    issued: "May 2025",
+    skills: ["WebSocket", "Node.js"]
   }
 ];
