@@ -68,7 +68,7 @@ The project is pre-configured for GitHub Pages deployment:
 
 - Update copy and content in `src/data/`
 - Replace the resume link by placing your PDF in `public/assets/shriram-iyer-resume.pdf` (create the folder if needed) or updating `profile.resumeUrl`
-- Adjust colors and typography via `tailwind.config.ts` and `src/styles.css`
+- Adjust colors and typography via the Tailwind `@theme` section in `src/styles.css`
 
 ## 📁 Project Structure
 
@@ -83,8 +83,8 @@ src/
 
 ## 🔧 Tech Stack
 
-- **Framework**: React 18 + TypeScript
-- **Build Tool**: Vite
+- **Framework**: React 19 + TypeScript
+- **Build Tool**: Vite 7
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Deployment**: GitHub Pages with GitHub Actions

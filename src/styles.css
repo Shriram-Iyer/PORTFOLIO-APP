@@ -1,10 +1,71 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Space Grotesk", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Fira Mono", Menlo, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --color-primary-50: #edf5ff;
+  --color-primary-100: #d7e7ff;
+  --color-primary-200: #b4ceff;
+  --color-primary-300: #8bb1ff;
+  --color-primary-400: #5a86ff;
+  --color-primary-500: #3a64ff;
+  --color-primary-600: #2549db;
+  --color-primary-700: #1d3ab0;
+  --color-primary-800: #1c398a;
+  --color-primary-900: #1b346f;
+  --color-accent: #ff7f50;
+
+  --shadow-neon: 0 0 25px rgba(90, 134, 255, 0.45);
+  --shadow-neon-subtle: 0 0 12px rgba(90, 134, 255, 0.25);
+
+  --animate-pulse-glow: pulse-glow 6s ease-in-out infinite;
+  --animate-float: float 12s ease-in-out infinite;
+  --animate-gradient-pan: gradient-pan 14s ease infinite;
+
+  @keyframes pulse-glow {
+    0%,
+    100% {
+      box-shadow: 0 0 0 rgba(90, 134, 255, 0);
+    }
+
+    50% {
+      box-shadow: 0 0 20px rgba(90, 134, 255, 0.35);
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0) scale(1);
+    }
+
+    50% {
+      transform: translateY(-8px) scale(1.01);
+    }
+  }
+
+  @keyframes gradient-pan {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
 
 @layer base {
   body {
-    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: var(--font-sans);
     background-color: #eef2ff;
     color: #11162a;
     min-height: 100vh;
@@ -97,5 +158,17 @@
   .card > * {
     position: relative;
     z-index: 1;
+  }
+}
+
+@layer utilities {
+  .bg-mesh-light {
+    background-image: radial-gradient(circle at 15% 20%, rgba(90, 134, 255, 0.25), transparent 55%),
+      radial-gradient(circle at 85% 0%, rgba(255, 127, 80, 0.25), transparent 45%);
+  }
+
+  .bg-mesh-dark {
+    background-image: radial-gradient(circle at 20% 20%, rgba(58, 100, 255, 0.28), transparent 55%),
+      radial-gradient(circle at 80% 0%, rgba(255, 127, 80, 0.18), transparent 45%);
   }
 }

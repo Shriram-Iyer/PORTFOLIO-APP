@@ -38,3 +38,6 @@ npm-cache/
 
 # Local backups
 backup_*/
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github/instructions/snyk_rules.instructions.md

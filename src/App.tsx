@@ -111,7 +111,7 @@ function Footer() {
 
 export default function App() {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-[#f8faff] text-slate-900 antialiased transition-colors duration-500 dark:bg-[#11071f] dark:text-[#f8faff]">
+    <div className="relative min-h-screen bg-[#f8faff] text-slate-900 antialiased transition-colors duration-500 dark:bg-[#11071f] dark:text-[#f8faff]">
       <BackgroundGlow />
       <Navbar />
       <main className="relative flex flex-col gap-24 pb-24 pt-16">
