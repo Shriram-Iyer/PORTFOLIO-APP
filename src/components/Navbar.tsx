@@ -49,23 +49,6 @@ const links: NavLink[] = [
     )
   },
   {
-    href: "#certifications",
-    label: "Certifications",
-    icon: (
-      <svg
-        className={iconClass}
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        aria-hidden="true"
-      >
-        <circle cx={12} cy={9} r={4} strokeLinecap="round" strokeLinejoin="round" />
-        <path d="M9.5 13.5L8 20l4-2 4 2-1.5-6.5" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    )
-  },
-  {
     href: "#projects",
     label: "Projects",
     icon: (
@@ -101,6 +84,23 @@ const links: NavLink[] = [
           strokeLinecap="round"
           strokeLinejoin="round"
         />
+      </svg>
+    )
+  },
+  {
+    href: "#certifications",
+    label: "Certifications",
+    icon: (
+      <svg
+        className={iconClass}
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.5}
+        aria-hidden="true"
+      >
+        <circle cx={12} cy={9} r={4} strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M9.5 13.5L8 20l4-2 4 2-1.5-6.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     )
   },

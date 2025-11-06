@@ -11,23 +11,23 @@ export const projects: Project[] = [
   {
     name: "Realtime Collaboration Workspace",
     description:
-      "Flagship product delivering Google-Docs style editing for customs teams with Node.js and Spring Boot services feeding a responsive Next.js client.",
+      "A real-time collaborative form with field autopopulations where filling one field automatically populates all related fields, built with Node.js and Spring Boot services feeding a responsive Next.js client.",
     highlights: [
-      "Built a Node.js collaboration gateway on top of Socket.IO and Redis streams while Spring Boot microservices handled compliance rules and Kafka event sourcing.",
-      "Delivered conflict-free editing with operational transforms across React clients, slashing duplicate filings by 35% and unlocking live co-authoring.",
-      "Stretched MongoDB change streams to hydrate React server components instantly, pairing them with Java CQRS projections for audit trails."
+      "Developed a real-time collaborative form with intelligent field autopopulation using WebSockets and Node.js, reducing manual data entry by 60%.",
+      "Integrated Spring Boot microservices for backend validation and Kafka for event-driven updates, ensuring data consistency across multiple users.",
+      "Leveraged MongoDB change streams and React server components for instant UI updates, enabling seamless co-editing experiences."
     ],
-    stack: ["Node.js", "Socket.IO", "Next.js", "React", "Spring Boot", "Kafka", "MongoDB", "Redis", "AWS"]
+    stack: ["Node.js", "Websocket", "Next.js", "React", "Spring Boot", "Kafka", "MongoDB", "Redis", "AWS"]
   },
   {
-    name: "Ops Insight Dashboard",
+    name: "Sentinel Dashboard",
     description:
-      "Companion analytics hub that visualises workspace telemetry using Next.js, Node.js, and MongoDB while federating metrics from Java services.",
+      "Dashboard for our webapp that helps customs brokers file paperwork in the ICEGATE portal, providing analysis of jobs created in the app.",
     highlights: [
-      "Aggregated activity feeds and SLA metrics through Node.js ingestion jobs and exposed them via Next.js server actions for near real-time dashboards.",
-      "Embedded Playwright-driven smoke suites and Spring Boot health endpoints into CI so releases to the analytics tier stayed below a 30-minute MTTR.",
-      "Implemented role-aware widgets and exports that reconciled data from MongoDB, Postgres, and Java gRPC services into a unified view."
+      "Built a comprehensive dashboard using Next.js and Node.js to analyze job creation and filing statuses for customs brokers in the ICEGATE portal.",
+      "Implemented real-time data aggregation from MongoDB to provide insights on paperwork efficiency and SLA metrics.",
+      "Created role-based widgets and export functionalities for better user experience and operational visibility."
     ],
-    stack: ["Next.js", "React", "Node.js", "MongoDB", "Spring Boot", "PostgreSQL", "Playwright", "GitHub Actions"]
+    stack: ["Next.js", "React", "Node.js", "MongoDB", "TypeScript"]
   }
 ];

@@ -11,7 +11,7 @@ export function SkillsGrid() {
           </h3>
           <ul className="mt-4 space-y-2 text-sm text-slate-600 transition-colors duration-300 dark:text-slate-300">
             {category.items.map((item) => (
-              <li key={item} className="rounded-lg border border-transparent px-2 py-1 transition-all duration-300 group-hover:border-primary-400/40 group-hover:text-primary-600 dark:group-hover:border-primary-400/40 dark:group-hover:text-primary-200">
+              <li key={item} className="rounded-lg border border-transparent px-2 py-1 transition-all duration-300 group-hover:text-primary-600 dark:group-hover:text-primary-200">
                 {item}
               </li>
             ))}
