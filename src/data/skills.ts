@@ -6,26 +6,42 @@ export type SkillCategory = {
 export const skills: SkillCategory[] = [
   {
     title: "Programming Languages",
-    items: ["Java", "JavaScript", "TypeScript", "Python"]
+    items: ["JavaScript", "TypeScript", "Node.js", "Python", "Java (Kafka Integration)"]
   },
   {
-    title: "Backend & APIs",
-    items: ["Spring Boot", "Spring Cloud", "Spring Security", "Node.js", "REST", "AsyncAPI"]
+    title: "Backend Development",
+    items: ["Node.js", "Microservices", "Mongoose", "JWT", "MongoDB Aggregation", "REST APIs", "AsyncAPI"]
   },
   {
-    title: "Frontend",
-    items: ["React", "Redux", "Material UI", "Bootstrap", "HTML", "CSS"]
+    title: "Frontend Development",
+    items: ["React.js", "Redux", "Material-UI", "Bootstrap", "HTML", "CSS", "Next.js", "Zustand", "Tailwind CSS"]
+  },
+  {
+    title: "Event Streaming & Real-Time",
+    items: ["Apache Kafka", "Kafka Streams", "Kafka Connect", "Schema Registry", "Avro", "WebSockets", "Apache Flink"]
   },
   {
     title: "Databases",
-    items: ["MySQL", "PostgreSQL", "Oracle", "MongoDB", "Redis"]
+    items: ["MongoDB", "Redis", "MySQL", "PostgreSQL"]
   },
   {
     title: "Cloud & DevOps",
-    items: ["AWS EC2", "AWS Lambda", "ECS", "S3", "CloudWatch", "Docker", "GitHub Actions"]
+    items: ["AWS EC2", "AWS Lambda", "API Gateway", "Cognito", "S3", "MSK", "ElastiCache", "ECS", "ALB", "CloudWatch", "Docker", "GitHub Actions"]
   },
   {
-    title: "Streaming & Real-Time",
-    items: ["Apache Kafka", "Kafka Streams", "Kafka Connect", "Schema Registry", "WebSockets", "Apache Flink"]
+    title: "API Development & Tools",
+    items: ["REST APIs", "Swagger", "Postman", "AsyncAPI", "JSON", "AJV"]
+  },
+  {
+    title: "Testing & Quality",
+    items: ["Playwright", "End-to-End Testing", "Test Automation", "CI/CD"]
+  },
+  {
+    title: "Version Control & Project Management",
+    items: ["Git", "Jira", "Zoho Projects"]
+  },
+  {
+    title: "IDEs & Operating Systems",
+    items: ["VS Code", "IntelliJ IDEA", "Windows", "Linux"]
   }
 ];

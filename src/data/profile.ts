@@ -10,15 +10,9 @@ const socialLinks = [
 
 const resumes = [
   {
-    id: "java",
-    label: "Java & Spring Boot CV",
-    summary: "Backend leadership with Spring Boot, Kafka, and AWS.",
-    url: `${import.meta.env.BASE_URL}assets/SHRIRAM_VENKATASUBRAMANIAN_IYER_CV.pdf`
-  },
-  {
     id: "mern",
-    label: "MERN Stack CV",
-    summary: "Full-stack delivery across MongoDB, Express, React, and Node.",
+    label: "Full-Stack Developer Resume",
+    summary: "Node.js, React.js, MongoDB, Kafka, AWS, Real-Time Systems expertise.",
     url: `${import.meta.env.BASE_URL}assets/SHRIRAM_VENKATASUBRAMANIAN_IYER_CV_MERN.pdf`
   }
 ];
@@ -30,12 +24,12 @@ export const profile = {
   location: "Chennai, India",
   photo: `${import.meta.env.BASE_URL}assets/photo1.jpg`,
   headline:
-    "Senior engineer blending Java/Spring Boot backends with MERN experiences to ship reliable logistics and SaaS platforms.",
+    "Senior Software Engineer | Full-Stack Development | Node.js, React.js, MongoDB, Kafka, AWS, Real-Time Systems",
   summary:
-    "Full-stack problem solver with 3+ years architecting Spring Boot and Kafka services alongside Express/Node APIs, React dashboards, and MongoDB pipelines. I bridge Java reliability with MERN speed to deliver real-time logistics tools, internal platforms, and customer-facing products end-to-end.",
+    "Detail-oriented Senior Software Engineer with 3.2 years of experience in Full-Stack Development in a fast-paced startup environment. Proficient in Node.js, React.js, MongoDB, Kafka, WebSocket, and AWS. Expertise in designing scalable, event-driven architectures and building real-time applications with high throughput. Proven track record in leading small teams, mentoring junior developers, and owning end-to-end delivery of a real-time collaborative logistics webapp. Skilled in microservices, CI/CD, performance optimization, and cloud infrastructure.",
   email: "shriramvi99@gmail.com",
   phone,
-  availability: "Open to senior backend or full-stack roles across Java/Spring Boot and MERN ecosystems.",
+  availability: "Open to senior full-stack roles in Node.js, React.js, and real-time systems development.",
   whatsapp: {
     number: whatsappNumber,
     message: whatsappMessage,
